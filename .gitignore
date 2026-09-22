@@ -1,0 +1,27 @@
+# 1. 帮助文档与临时文件
+HELP.md
+
+# 2. Maven 编译输出产物
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# 3. Maven Wrapper 文件（如果本地直接使用安装版 Maven，可保持忽略）
+.mvn/
+mvnw
+mvnw.cmd
+
+# 4. IntelliJ IDEA 配置（精细化管理：保留核心项目配置，忽略个人工作区与模块文件）
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionaries/
+.idea/shelf/
+*.iml
+*.iws
+*.ipr
+
+# 5. 系统日志与操作系统临时文件
+*.log
+.DS_Store
+Thumbs.db
