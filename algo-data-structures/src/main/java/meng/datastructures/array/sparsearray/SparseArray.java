@@ -1,4 +1,4 @@
-package meng.datastructures.sparsearray;
+package meng.datastructures.array.sparsearray;
 
 /**
  * 稀疏数组的基本使用
