@@ -1,4 +1,4 @@
-package jvm.allocation;
+package com.meng.jvm.allocation;
 
 /**
  * 1.对象优先在Eden分配
