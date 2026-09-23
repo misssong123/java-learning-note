@@ -10,7 +10,10 @@
     </parent>
     <packaging>pom</packaging>
     <modules>
+        <module>springbootdemo</module>
+        <module>springclouddemo</module>
         <module>my-start</module>
+        <module>java</module>
     </modules>
     <groupId>org.example</groupId>
     <artifactId>java-learning-note</artifactId>
