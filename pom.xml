@@ -17,6 +17,7 @@
         <module>algo-data-structures</module>
         <module>redisdemo</module>
         <module>nettydemo</module>
+        <module>designpatternsdemo</module>
     </modules>
     <groupId>org.example</groupId>
     <artifactId>java-learning-note</artifactId>
