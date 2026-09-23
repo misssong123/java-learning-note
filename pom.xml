@@ -18,6 +18,8 @@
         <module>redisdemo</module>
         <module>nettydemo</module>
         <module>designpatternsdemo</module>
+        <module>utils</module>
+        <module>interviewdemo</module>
     </modules>
     <groupId>org.example</groupId>
     <artifactId>java-learning-note</artifactId>
