@@ -1,6 +1,6 @@
 package com.example.java.threadpooldemo.monitor;
-import thinking.threadpooldemo.monitor.customer.CustomCaller;
-import thinking.threadpooldemo.monitor.execute.ThreadExecutor;
+import com.example.java.threadpooldemo.monitor.customer.CustomCaller;
+import com.example.java.threadpooldemo.monitor.execute.ThreadExecutor;
 
 import java.util.ArrayList;
 import java.util.List;

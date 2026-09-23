@@ -3,10 +3,10 @@ package com.example.java.threadpooldemo.monitor.manager;
 import com.alibaba.fastjson.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import thinking.threadpooldemo.monitor.config.CustomThreadPoolConfig;
-import thinking.threadpooldemo.monitor.config.ThreadPoolMonitor;
-import thinking.threadpooldemo.monitor.customer.CustomThreadPoolExecutor;
-import thinking.threadpooldemo.monitor.execute.Executor;
+import com.example.java.threadpooldemo.monitor.config.CustomThreadPoolConfig;
+import com.example.java.threadpooldemo.monitor.config.ThreadPoolMonitor;
+import com.example.java.threadpooldemo.monitor.customer.CustomThreadPoolExecutor;
+import com.example.java.threadpooldemo.monitor.execute.Executor;
 
 import java.util.Date;
 import java.util.Map;

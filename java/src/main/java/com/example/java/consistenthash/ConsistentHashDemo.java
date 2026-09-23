@@ -1,7 +1,7 @@
 package com.example.java.consistenthash;
 
-import thinking.consistenthash.util.DataRecord;
-import thinking.consistenthash.util.TableNode;
+import com.example.java.consistenthash.util.DataRecord;
+import com.example.java.consistenthash.util.TableNode;
 
 import java.util.Random;
 

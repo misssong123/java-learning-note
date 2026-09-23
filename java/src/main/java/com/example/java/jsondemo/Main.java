@@ -1,8 +1,8 @@
 package com.example.java.jsondemo;
 
-import thinking.jsondemo.obj.FullName;
-import thinking.jsondemo.obj.SourceObject;
-import thinking.jsondemo.obj.TargetObject;
+import com.example.java.jsondemo.obj.FullName;
+import com.example.java.jsondemo.obj.SourceObject;
+import com.example.java.jsondemo.obj.TargetObject;
 
 import java.util.Arrays;
 import java.util.Date;

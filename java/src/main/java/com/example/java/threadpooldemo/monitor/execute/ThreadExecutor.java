@@ -3,12 +3,12 @@ package com.example.java.threadpooldemo.monitor.execute;
 import com.alibaba.fastjson.JSONObject;
 import org.apache.commons.beanutils.BeanUtils;
 import org.apache.commons.collections.CollectionUtils;
-import thinking.threadpooldemo.monitor.config.CustomThreadPoolConfig;
-import thinking.threadpooldemo.monitor.config.LocalThreadPoolConfig;
-import thinking.threadpooldemo.monitor.customer.CustomCaller;
-import thinking.threadpooldemo.monitor.customer.CustomThreadPoolExecutor;
-import thinking.threadpooldemo.monitor.enums.RejectExecutionPolicyEnum;
-import thinking.threadpooldemo.monitor.manager.ThreadPoolManager;
+import com.example.java.threadpooldemo.monitor.config.CustomThreadPoolConfig;
+import com.example.java.threadpooldemo.monitor.config.LocalThreadPoolConfig;
+import com.example.java.threadpooldemo.monitor.customer.CustomCaller;
+import com.example.java.threadpooldemo.monitor.customer.CustomThreadPoolExecutor;
+import com.example.java.threadpooldemo.monitor.enums.RejectExecutionPolicyEnum;
+import com.example.java.threadpooldemo.monitor.manager.ThreadPoolManager;
 
 import java.util.ArrayList;
 import java.util.List;

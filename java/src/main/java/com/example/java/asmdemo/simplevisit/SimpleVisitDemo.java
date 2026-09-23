@@ -1,6 +1,6 @@
 package com.example.java.asmdemo.simplevisit;
 
-import jdk.internal.org.objectweb.asm.ClassReader;
+import org.objectweb.asm.ClassReader;
 
 import java.nio.file.Files;
 import java.nio.file.Paths;

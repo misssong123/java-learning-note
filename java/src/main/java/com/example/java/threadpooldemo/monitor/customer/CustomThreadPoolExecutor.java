@@ -1,8 +1,8 @@
 package com.example.java.threadpooldemo.monitor.customer;
 
 import lombok.Getter;
-import thinking.threadpooldemo.monitor.config.CustomThreadPoolConfig;
-import thinking.threadpooldemo.monitor.execute.Executor;
+import com.example.java.threadpooldemo.monitor.config.CustomThreadPoolConfig;
+import com.example.java.threadpooldemo.monitor.execute.Executor;
 
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.SynchronousQueue;

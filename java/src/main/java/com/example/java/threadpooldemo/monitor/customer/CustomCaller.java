@@ -5,14 +5,10 @@ import lombok.Setter;
 import org.apache.commons.lang3.time.StopWatch;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import thinking.threadpooldemo.monitor.config.CustomThreadPoolConfig;
-
+import com.example.java.threadpooldemo.monitor.config.CustomThreadPoolConfig;
 import java.util.concurrent.Callable;
-
 public abstract class CustomCaller <V> implements Callable<V> {
-
     private static final Logger logger = LoggerFactory.getLogger(CustomCaller.class);
-
     @Getter
     private final String taskName;
     @Setter

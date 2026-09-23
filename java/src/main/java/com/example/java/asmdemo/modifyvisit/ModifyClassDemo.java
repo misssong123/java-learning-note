@@ -1,6 +1,6 @@
 package com.example.java.asmdemo.modifyvisit;
-import jdk.internal.org.objectweb.asm.ClassReader;
-import jdk.internal.org.objectweb.asm.ClassWriter;
+import org.objectweb.asm.ClassReader;
+import org.objectweb.asm.ClassWriter;
 
 import java.io.FileOutputStream;
 import java.nio.file.Files;
