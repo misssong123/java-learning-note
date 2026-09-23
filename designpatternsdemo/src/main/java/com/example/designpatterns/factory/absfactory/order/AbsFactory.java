@@ -1,7 +1,7 @@
 package com.example.designpatterns.factory.absfactory.order;
 
 
-import com.qust.factory.absfactory.pizza.Pizza;
+import com.example.designpatterns.factory.absfactory.pizza.Pizza;
 
 //一个抽象工厂模式的抽象层(接口)
 public interface AbsFactory {

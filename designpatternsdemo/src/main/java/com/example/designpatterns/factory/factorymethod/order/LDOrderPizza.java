@@ -1,8 +1,8 @@
 package com.example.designpatterns.factory.factorymethod.order;
 
-import com.qust.factory.factorymethod.pizza.LDCheesePizza;
-import com.qust.factory.factorymethod.pizza.LDPepperPizza;
-import com.qust.factory.factorymethod.pizza.Pizza;
+import com.example.designpatterns.factory.factorymethod.pizza.LDCheesePizza;
+import com.example.designpatterns.factory.factorymethod.pizza.LDPepperPizza;
+import com.example.designpatterns.factory.factorymethod.pizza.Pizza;
 
 public class LDOrderPizza extends OrderPizza {
     @Override

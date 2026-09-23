@@ -1,9 +1,9 @@
 package com.example.designpatterns.factory.absfactory.order;
 
 
-import com.qust.factory.absfactory.pizza.LDCheesePizza;
-import com.qust.factory.absfactory.pizza.LDPepperPizza;
-import com.qust.factory.absfactory.pizza.Pizza;
+import com.example.designpatterns.factory.absfactory.pizza.LDCheesePizza;
+import com.example.designpatterns.factory.absfactory.pizza.LDPepperPizza;
+import com.example.designpatterns.factory.absfactory.pizza.Pizza;
 
 public class LDFactory implements AbsFactory {
 

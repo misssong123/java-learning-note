@@ -1,6 +1,6 @@
 package com.example.designpatterns.factory.factorymethod.order;
 
-import com.qust.factory.factorymethod.pizza.*;
+import com.example.designpatterns.factory.factorymethod.pizza.*;
 
 public class BJOrderPizza extends OrderPizza{
     @Override

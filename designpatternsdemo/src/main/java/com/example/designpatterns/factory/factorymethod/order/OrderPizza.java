@@ -1,6 +1,6 @@
 package com.example.designpatterns.factory.factorymethod.order;
 
-import com.qust.factory.factorymethod.pizza.Pizza;
+import com.example.designpatterns.factory.factorymethod.pizza.Pizza;
 
 import java.io.BufferedReader;
 import java.io.IOException;

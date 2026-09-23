@@ -1,10 +1,10 @@
 package com.example.designpatterns.factory.simplefactory.order;
 
 
-import com.qust.factory.simplefactory.pizza.CheesePizza;
-import com.qust.factory.simplefactory.pizza.GreekPizza;
-import com.qust.factory.simplefactory.pizza.PepperPizza;
-import com.qust.factory.simplefactory.pizza.Pizza;
+import com.example.designpatterns.factory.simplefactory.pizza.CheesePizza;
+import com.example.designpatterns.factory.simplefactory.pizza.GreekPizza;
+import com.example.designpatterns.factory.simplefactory.pizza.PepperPizza;
+import com.example.designpatterns.factory.simplefactory.pizza.Pizza;
 
 //简单工厂类
 public class SimpleFactory {

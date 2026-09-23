@@ -2,9 +2,9 @@ package com.example.designpatterns.factory.absfactory.order;
 
 
 
-import com.qust.factory.absfactory.pizza.BJCheesePizza;
-import com.qust.factory.absfactory.pizza.BJPepperPizza;
-import com.qust.factory.absfactory.pizza.Pizza;
+import com.example.designpatterns.factory.absfactory.pizza.BJCheesePizza;
+import com.example.designpatterns.factory.absfactory.pizza.BJPepperPizza;
+import com.example.designpatterns.factory.absfactory.pizza.Pizza;
 
 //这是工厂子类
 public class BJFactory implements AbsFactory {
