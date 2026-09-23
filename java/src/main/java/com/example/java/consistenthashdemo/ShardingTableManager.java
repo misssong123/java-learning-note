@@ -1,8 +1,8 @@
-package com.example.java.consistenthash;
+package com.example.java.consistenthashdemo;
 
 import lombok.Getter;
-import com.example.java.consistenthash.util.DataRecord;
-import com.example.java.consistenthash.util.TableNode;
+import com.example.java.consistenthashdemo.util.DataRecord;
+import com.example.java.consistenthashdemo.util.TableNode;
 
 import java.util.ArrayList;
 import java.util.List;

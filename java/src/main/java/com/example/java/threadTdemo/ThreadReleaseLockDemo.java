@@ -1,4 +1,4 @@
-package com.example.java.threadT;
+package com.example.java.threadTdemo;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.LockSupport;

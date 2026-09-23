@@ -1,4 +1,4 @@
-package com.example.java.threadT;
+package com.example.java.threadTdemo;
 
 public class ThreadCreateWay {
     public static void main(String[] args) {

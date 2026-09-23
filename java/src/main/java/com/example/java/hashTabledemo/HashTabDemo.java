@@ -1,4 +1,4 @@
-package com.example.java.hashTable;
+package com.example.java.hashTabledemo;
 
 import java.util.Scanner;
 

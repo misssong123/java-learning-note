@@ -1,4 +1,4 @@
-package com.example.java.staticclass;
+package com.example.java.staticclassdemo;
 
 /**
  * 1.静态类

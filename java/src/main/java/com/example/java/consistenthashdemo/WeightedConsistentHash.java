@@ -1,4 +1,4 @@
-package com.example.java.consistenthash;
+package com.example.java.consistenthashdemo;
 
 import java.util.*;
 

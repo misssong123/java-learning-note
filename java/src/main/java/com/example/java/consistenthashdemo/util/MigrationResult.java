@@ -1,4 +1,4 @@
-package com.example.java.consistenthash.util;
+package com.example.java.consistenthashdemo.util;
 
 /**
  * 迁移结果

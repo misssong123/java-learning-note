@@ -1,6 +1,6 @@
-package com.example.java.consistenthash;
-import com.example.java.consistenthash.util.MigrationResult;
-import com.example.java.consistenthash.util.StatsCollector;
+package com.example.java.consistenthashdemo;
+import com.example.java.consistenthashdemo.util.MigrationResult;
+import com.example.java.consistenthashdemo.util.StatsCollector;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

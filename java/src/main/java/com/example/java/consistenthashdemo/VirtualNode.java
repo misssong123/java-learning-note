@@ -1,4 +1,4 @@
-package com.example.java.consistenthash;
+package com.example.java.consistenthashdemo;
 
 public class VirtualNode<T> {
     final T physicalNode;

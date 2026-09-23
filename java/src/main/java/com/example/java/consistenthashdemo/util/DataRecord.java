@@ -1,4 +1,4 @@
-package com.example.java.consistenthash.util;
+package com.example.java.consistenthashdemo.util;
 
 import lombok.Getter;
 
