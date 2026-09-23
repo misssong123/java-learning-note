@@ -12,11 +12,7 @@ mvnw
 mvnw.cmd
 
 # 4. IntelliJ IDEA 配置（精细化管理：保留核心项目配置，忽略个人工作区与模块文件）
-.idea/workspace.xml
-.idea/tasks.xml
-.idea/usage.statistics.xml
-.idea/dictionaries/
-.idea/shelf/
+.idea/
 *.iml
 *.iws
 *.ipr
