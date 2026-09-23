@@ -1,4 +1,4 @@
-package doctranspdf;
+package com.doctranspdf;
 
 import com.lowagie.text.Document;
 import com.lowagie.text.Paragraph;
