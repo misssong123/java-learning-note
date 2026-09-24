@@ -1,8 +1,6 @@
 package com.meng.datatype.d05zsetdemo.board;
 
 import com.meng.datatype.JedisUtil;
-import com.meng.datatype.zsetdemo.RedisManager;
-import com.meng.datatype.zsetdemo.TieredLeaderboard;
 import redis.clients.jedis.Jedis;
 
 import java.util.Arrays;
@@ -27,7 +25,7 @@ public class Main {
             //7.完整游戏排行榜系统
             game(jedis);
         } finally {
-            RedisManager.close();
+            JedisUtil.close();
         }
     }
     private static void batch(Jedis jedis) {
