@@ -5,14 +5,11 @@ import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;
 
 public class JedisUtil {
-    private static final String REDIS_IP = System.getenv().get("REDIS_IP");
-    private static final Integer REDIS_PORT = Integer.parseInt(System.getenv().get("REDIS_PORT"));
-    private static final String REDIS_PASSWORD = System.getenv().get("REDIS_PASSWORD");
+    private static final String REDIS_IP = System.getenv().getOrDefault("REDIS_IP","test-teg-yxpt01.rdb.58dns.org");
+    private static final Integer REDIS_PORT = Integer.parseInt(System.getenv().getOrDefault("REDIS_PORT","50029"));
+    private static final String REDIS_PASSWORD = System.getenv().getOrDefault("REDIS_PASSWORD","3c78d83a7c0d8da0");
     private static final JedisPool jedisPool;
     static {
-        System.out.println("REDIS_IP: " + REDIS_IP);
-        System.out.println("REDIS_PORT: " + REDIS_PORT);
-        System.out.println("REDIS_PASSWORD: " + REDIS_PASSWORD);
         JedisPoolConfig poolConfig = new JedisPoolConfig();
         poolConfig.setMaxTotal(10);          // 最大连接数
         poolConfig.setMaxIdle(10);           // 最大空闲连接
