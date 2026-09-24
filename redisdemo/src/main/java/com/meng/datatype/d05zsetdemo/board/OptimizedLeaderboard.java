@@ -1,4 +1,4 @@
-package com.meng.datatype.zsetdemo;
+package com.meng.datatype.d05zsetdemo.board;
 
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.Pipeline;

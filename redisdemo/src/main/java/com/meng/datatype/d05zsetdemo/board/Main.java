@@ -1,29 +1,31 @@
-package com.meng.datatype.zsetdemo;
+package com.meng.datatype.d05zsetdemo.board;
 
+import com.meng.datatype.JedisUtil;
+import com.meng.datatype.zsetdemo.RedisManager;
+import com.meng.datatype.zsetdemo.TieredLeaderboard;
 import redis.clients.jedis.Jedis;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
-public class LeaderboardDemo {
+public class Main {
     public static void main(String[] args) {
-        try (Jedis jedis = RedisManager.getJedis()) {
+        try (Jedis jedis = JedisUtil.getJedis()) {
             // 1. 基础排行榜示例
-            //basic(jedis);
+            basic(jedis);
             //2.实时积分榜（带时间衰减）
-            //realTime(jedis);
+            realTime(jedis);
             //3.分段排行榜示例
-            //tiere(jedis);
+            tiere(jedis);
             //4.分布式排行榜
-            //distributed(jedis);
+            distributed(jedis);
             //5.批量操作优化
-            //batch(jedis);
+            batch(jedis);
             //6.缓存优化示例
-            //cache(jedis);
+            cache(jedis);
             //7.完整游戏排行榜系统
             game(jedis);
-
         } finally {
             RedisManager.close();
         }
