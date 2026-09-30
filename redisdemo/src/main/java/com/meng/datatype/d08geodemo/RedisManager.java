@@ -1,4 +1,4 @@
-package com.meng.datatype.geodemo;
+package com.meng.datatype.d08geodemo;
 
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;

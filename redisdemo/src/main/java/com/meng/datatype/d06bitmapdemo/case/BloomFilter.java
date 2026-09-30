@@ -1,4 +1,4 @@
-package com.meng.datatype.bitmapdemo;
+package com.meng.datatype.d06bitmapdemo;
 
 import redis.clients.jedis.Jedis;
 

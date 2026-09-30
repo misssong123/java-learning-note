@@ -19,6 +19,14 @@ import java.util.List;
  * HashTable：配合跳表存储 member -> score 映射，以 $O(1)$ 复杂度查询任意成员的分数。
  */
 public class ZSetDemo {
+    public static void main(String[] args) {
+        ZSetDemo zSetDemo = new ZSetDemo();
+        //zSetDemo.leaderboardExample();
+        //zSetDemo.delayQueueProducerAndConsumer();
+        for (int i = 0; i < 10; i++) {
+            System.out.println(zSetDemo.isAllowed("12344","test-101",3,5));
+        }
+    }
     // 场景 1：实时热搜/积分排行榜
     public void leaderboardExample() {
         Jedis jedis = null;
@@ -49,7 +57,7 @@ public class ZSetDemo {
             long executeTime = System.currentTimeMillis() + 5000; // 5秒后执行
 
             // 生产者：添加任务，Score 为预期执行的时间戳
-            jedis.zadd(key, executeTime, "task_id_9988");
+            jedis.zadd(key, executeTime, "task_id_9989");
 
             // 消费者：拉取分值小于等于当前时间的到期任务
             long now = System.currentTimeMillis();
