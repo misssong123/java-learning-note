@@ -2,6 +2,7 @@ package com.meng.datatype.d06bitmapdemo;
 
 import com.meng.datatype.JedisUtil;
 import redis.clients.jedis.Jedis;
+import redis.clients.jedis.args.BitOP;
 
 /**
  * 概念
@@ -13,6 +14,12 @@ import redis.clients.jedis.Jedis;
  * 直接对 SDS 中存储的字节数组中的每一个 bit 进行寻址和偏移量（Offset）读写。
  */
 public class BitMapDemo {
+    public static void main(String[] args) {
+        BitMapDemo demo = new BitMapDemo();
+        //demo.userCheckIn("1001", 1);
+        //System.out.println(demo.getAnnualCheckInCount("1001"));
+        System.out.println(demo.calculateDAURetention("2026-09", "2026-10"));
+    }
     // 场景 1：用户打卡/签到
     public void userCheckIn(String userId, int dayOfYear) {
         Jedis jedis = null;
@@ -54,7 +61,7 @@ public class BitMapDemo {
             String destKey = "dau:retained:" + date1 + "_" + date2;
 
             // 对两个 BitMap 进行 AND 位运算，结果存在 destKey
-            jedis.bitop(redis.clients.jedis.args.BitOP.AND, destKey, key1, key2);
+            jedis.bitop(BitOP.AND, destKey, key1, key2);
             return jedis.bitcount(destKey);
         }finally {
             JedisUtil.returnResource(jedis);
