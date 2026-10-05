@@ -22,6 +22,11 @@ import java.util.Map;
  * 消息节点自带唯一 ID，格式为 <millisecondsTime>-<sequenceNumber>。
  */
 public class StreamDemo {
+    public static void main(String[] args) {
+        StreamDemo demo = new StreamDemo();
+        //demo.produceOrderEvent("order-001", "created");
+        demo.consumeOrderEvents("group-001", "consumer-001");
+    }
     // 场景 1：生产消息（追加发布日志/事件）
     public StreamEntryID produceOrderEvent(String orderId, String status) {
         Jedis jedis = null;
