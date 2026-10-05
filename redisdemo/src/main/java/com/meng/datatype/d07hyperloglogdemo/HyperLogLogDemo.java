@@ -15,6 +15,11 @@ import redis.clients.jedis.Jedis;
  * 利用 16384 个桶（Registers）分桶统计极值，最终使用调和平均数消除偏差，推算出整体唯一元素的概率数量。
  */
 public class HyperLogLogDemo {
+    public static void main(String[] args) {
+        HyperLogLogDemo demo = new HyperLogLogDemo();
+        //demo.recordPageUV("page1", "192.168.1.1");
+        System.out.println(demo.getWeeklyUV("2026-09-01", "2026-09-07"));
+    }
     // 场景 1：记录并统计页面 UV
     public void recordPageUV(String pageId, String ipOrUserId) {
         Jedis jedis = null;
