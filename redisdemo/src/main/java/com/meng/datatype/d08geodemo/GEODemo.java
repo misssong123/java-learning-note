@@ -19,6 +19,12 @@ import java.util.List;
  * 将该整数存入 ZSet 作为 score，使得地理位置相邻的点在整数空间上也大致连续，进而转化为 ZSet 的范围查询。
  */
 public class GEODemo {
+    public static void main(String[] args) {
+        GEODemo demo = new GEODemo();
+        //demo.calculateDistance();
+        //demo.findNearbyPops();
+        demo.getGeoHash("Beijing");
+    }
     // 场景 1：添加与计算两点间的地理距离
     public void calculateDistance() {
         Jedis jedis = null;
